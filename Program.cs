@@ -3,7 +3,7 @@
 Usuario usuario = new Usuario
 {
     Nome = "joao",
-    Idade = 15,
+    Idade = 19,
 };
 
 Filme filme1 = new Filme
@@ -23,4 +23,7 @@ Musica musica1 = new Musica
 };
 
 Console.WriteLine(usuario.PodeReproduzir(musica1));
-Console.WriteLine(musica1.Reproduzir());
+
+Console.WriteLine();
+
+Console.WriteLine(usuario.PodeReproduzir(filme1));

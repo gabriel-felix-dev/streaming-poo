@@ -7,6 +7,6 @@ public class Musica : Conteudo
 
     public override string Reproduzir()
     {
-        return $"Reproduzindo: {Titulo} | Ano de lançamento: {AnoLancamento} | Classificação: {ClassificacaoIndicativa}| Diretor: {Artista}";
+        return $"Reproduzindo - Música: {Titulo} | Ano de lançamento: {AnoLancamento} | Classificação: {ClassificacaoIndicativa}| Diretor: {Artista}";
     }
 }

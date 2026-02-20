@@ -6,6 +6,6 @@ public class Filme : Conteudo
 
     public override string Reproduzir()
     {
-        return $"Reproduzindo: {Titulo} | Ano de lançamento: {AnoLancamento} | Classificação: {ClassificacaoIndicativa}| Diretor: {Diretor}";
+        return $"Reproduzindo - Filme: {Titulo} | Ano de lançamento: {AnoLancamento} | Classificação: {ClassificacaoIndicativa}| Diretor: {Diretor}";
     }
 }
